@@ -29,7 +29,9 @@ function walkHome(dogName, dogBreed)
 }
 function unleashDog(dogName, dogBreed)
 {
-  var out = `Unleash ${dogName} the ${dogBreed}`);
+  var out = `Unleash ${dogName} the ${dogBreed}`
+  return out
+
 }
 var routine = [
   WakeDog(),
