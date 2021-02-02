@@ -31,7 +31,6 @@ function unleashDog(dogName, dogBreed)
 {
   var out = `Unleash ${dogName} the ${dogBreed}`
   return out
-
 }
 var routine = [
   WakeDog,
