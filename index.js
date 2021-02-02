@@ -38,5 +38,5 @@ var routine = [
   walkToPark,
   throwFrisbee,
   walkHome,
-  unleahDog
+  unleashDog
 ]
