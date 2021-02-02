@@ -1,4 +1,4 @@
-function WakeDog(dogName, dogBreed)
+function wakeDog(dogName, dogBreed)
 {
   console.log(`Wake ${dogName} the ${dogBreed}`);
 }
@@ -6,19 +6,27 @@ function leashDog(dogName, dogBreed)
 {
   console.log(`Wake ${dogName} the ${dogBreed}`);
 }
-function WakeDog(dogName, dogBreed)
+function walkToPark(dogName, dogBreed)
 {
   console.log(`Wake ${dogName} the ${dogBreed}`);
 }
-function WakeDog(dogName, dogBreed)
+function throwFrisbee(dogName, dogBreed)
 {
   console.log(`Wake ${dogName} the ${dogBreed}`);
 }
-function WakeDog(dogName, dogBreed)
+function walkHome(dogName, dogBreed)
 {
   console.log(`Wake ${dogName} the ${dogBreed}`);
 }
-function WakeDog(dogName, dogBreed)
+function unleashDog(dogName, dogBreed)
 {
   console.log(`Wake ${dogName} the ${dogBreed}`);
 }
+var routine = [
+  WakeDog(),
+  leashDog(),
+  walkToPark(),
+  throwFrisbee(),
+  walkHome(),
+  unleahDog()
+]
