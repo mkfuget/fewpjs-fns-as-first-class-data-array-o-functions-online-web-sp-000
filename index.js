@@ -48,5 +48,6 @@ function exerciseDog(dogName, dogBreed)
     //console.log(routine[i](dogName, dogBreed))
     out.push(routine[i](dogName, dogBreed))
   }
+  console.log(out)
   return out
 }
