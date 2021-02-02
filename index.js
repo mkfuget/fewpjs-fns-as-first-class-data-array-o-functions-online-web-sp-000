@@ -33,11 +33,10 @@ function unleashDog(dogName, dogBreed)
   return out
 }
 var routine = [
-  WakeDog,
+  wakeDog,
   leashDog,
   walkToPark,
   throwFrisbee,
   walkHome,
   unleahDog
 ]
-console.log(routine)
