@@ -34,10 +34,10 @@ function unleashDog(dogName, dogBreed)
 
 }
 var routine = [
-  WakeDog(),
-  leashDog(),
-  walkToPark(),
-  throwFrisbee(),
-  walkHome(),
-  unleahDog()
+  WakeDog(dogName, dogBreed),
+  leashDog(dogName, dogBreed),
+  walkToPark(dogName, dogBreed),
+  throwFrisbee(dogName, dogBreed),
+  walkHome(dogName, dogBreed),
+  unleahDog(dogName, dogBreed)
 ]
