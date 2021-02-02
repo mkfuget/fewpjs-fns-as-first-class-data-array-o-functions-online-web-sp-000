@@ -45,7 +45,7 @@ function exerciseDog(dogName, dogBreed)
   var out = []
   for(let i=0; i<routine.lenght; i++)
   {
-    console.log(routine[i](dogName, dogBreed))
+    //console.log(routine[i](dogName, dogBreed))
     out.push(routine[i](dogName, dogBreed))
   }
   return out
