@@ -42,7 +42,7 @@ var routine = [
 ]
 function exerciseDog(dogName, dogBreed)
 {
-  out = []
+  var out = []
   for(let i=0; i<routine.lenght; i++)
   {
     console.log(routine[i](dogName, dogBreed))
