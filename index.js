@@ -40,3 +40,4 @@ var routine = [
   walkHome,
   unleahDog
 ]
+console.log(routine)
